@@ -16,8 +16,8 @@ defmodule PhoenixVideoStream.Router do
   scope "/", PhoenixVideoStream do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
-    resources "/videos", VideoController
+    get "/", VideoController, :index
+    resources "/", VideoController
     get "/watch/:id", WatchController, :show
   end
 
