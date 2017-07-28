@@ -18,8 +18,7 @@ defmodule PhoenixVideoStream.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {PhoenixVideoStream, []},
-     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext, :phoenix_ecto, :postgrex, :ueberauth, :ueberauth_identity]]
   end
 
   # Specifies which paths to compile per environment.
@@ -38,7 +37,9 @@ defmodule PhoenixVideoStream.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:guardian, "~> 0.14"}
+     {:guardian, "~> 0.14"},
+     {:ueberauth, "~> 0.4"},
+     {:ueberauth_identity, "~> 0.2"}
    ]
   end
 
