@@ -53,7 +53,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :virtu, Virtu.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "nick",
+  username: "postgres",
   password: "",
   database: "virtu_dev",
   hostname: "localhost",
