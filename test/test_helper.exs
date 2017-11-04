@@ -1,4 +1,4 @@
-ExUnit.start
+ExUnit.start()
 
-Ecto.Adapters.SQL.Sandbox.mode(PhoenixVideoStream.Repo, :manual)
+Ecto.Adapters.SQL.Sandbox.mode(Virtu.Repo, :manual)
 
