@@ -1,4 +1,6 @@
-# Virtu
+# Phoenix Video Streaming
+
+This is a boilerplate Phoenix video streaming app written in Phoenix 1.3.
 
 To start your Phoenix server:
 
@@ -7,11 +9,10 @@ To start your Phoenix server:
   * Install Node.js dependencies with `cd assets && npm install`
   * Start Phoenix endpoint with `mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+With your server running, you can visit your app at  [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-## Learn more
+## Learn more about the Phoenix framework
 
   * Official website: http://www.phoenixframework.org/
   * Guides: http://phoenixframework.org/docs/overview
